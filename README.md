@@ -1,114 +1,73 @@
-Wine Quality Prediction using Machine Learning
+# Wine Quality Prediction
 
-Project Overview:
+### Project Overview
 
-→ Wine Quality Prediction is a Machine Learning project that predicts the quality of wine based on its physicochemical properties such as acidity, sugar level, pH value, alcohol content, and other chemical features.
+→ Wine Quality Prediction is a machine learning project that predicts the quality of wine based on its chemical properties such as acidity, alcohol content, pH level, and other features.
 
-→ The objective is to build a classification/regression model that accurately predicts wine quality to assist in quality control and decision-making in the wine industry.
+→ This project helps in analyzing wine characteristics and classifying wine quality using data-driven techniques.
 
-Problem Statement:
+### Objective
 
-→ Wine quality assessment is traditionally done through sensory evaluation, which can be subjective and time-consuming.
+The main objective of this project is to:
 
-This project aims to:
+→  Analyze wine dataset
 
-→ Analyze wine chemical properties
+→  Identify important features affecting wine quality
 
-→ Identify key factors affecting quality
+→  Build a classification model
 
-→ Predict wine quality using Machine Learning models
+→  Predict wine quality accurately
 
-Dataset Information:
+### Technologies Used
 
-The dataset contains various chemical attributes of wine such as:
+→  Python
 
-→ Fixed Acidity
+→  Pandas
 
-→ Volatile Acidity
+→  NumPy
 
-→ Citric Acid
+→  Matplotlib
 
-→ Residual Sugar
+→  Scikit-learn
 
-→ Chlorides
+→  Streamlit
 
-→ Free Sulfur Dioxide
+### Algorithm Used
 
-→ Total Sulfur Dioxide
+→  Logistic Regression / Random Forest Classifier
 
-→ Density
+→  Machine Learning Classification Model
 
-→ pH
+### How to Run the Project
 
-→ Sulphates
+##### 1. Install required libraries:
 
-→ Alcohol
+pip install pandas numpy matplotlib scikit-learn streamlit
 
-→ Target Variable:
+##### 2. Run the Streamlit app:
+ 
+streamlit run app.py
 
-→ Wine Quality (score)
+##### 3.LINKS
 
-Machine Learning Workflow:
+streamlit link : https://winequality-prediction-akshi.streamlit.app/
 
-→  Data Collection
-
-→  Data Cleaning & Preprocessing
-
-→  Exploratory Data Analysis (EDA)
-
-→  Feature Selection
-
-→  Model Training
-
-→  Model Evaluation
-
-→  Prediction
-
-Algorithms Used:
-
-→ Logistic Regression
-
-→ Random Forest Classifier
-
-→ Decision Tree Classifier
-
-Evaluation Metrics:
-
-→ Accuracy Score
-
-→ Confusion Matrix
-
-→ Precision
-
-→ Recall
-
-→ F1 Score
-
-Technologies Used:
-
-→ Python
-
-→ Pandas
-
-→ NumPy
-
-→ Scikit-learn
-
-→ Matplotlib
-
-→ Seaborn
-
-→ Jupyter Notebook / Google Colab / VS code 
-
-→ Streamlit / Flask (if deployed)
-
-Results:
-
-→ The model successfully predicts wine quality based on chemical properties with good accuracy and reliable performance metrics.
+Gitub link : https://github.com/akshi281/WINEQUALITY-PREDICTION
 
 
-Author:
+### Project Structure
 
-GUDURU AKSHITHA REDDY
+→  app.py - Main Streamlit application
 
-Machine Learning Enthusiast 
+→  dataset.csv - Wine dataset
+
+→  README.md - Project documentation
+
+### Output
+
+→ The model predicts the quality category of wine based on input features.
+→ It helps classify wine quality using trained machine learning model.
+
+### Author
+
+Guduru Akshitha Reddy
